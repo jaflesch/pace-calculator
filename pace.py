@@ -80,7 +80,7 @@ else:
 	print "--------------------------------"
 	print "Time: \t\t" + hours + "h" + " " + minutes + "' " + seconds + '"'
 	print "--------------------------------"
-	print "PACE:\t\t",pace
+	print "PACE:\t\t",pace,"min/km"
 	print "--------------------------------"
-	print "AVG Speed:\t", "{:,.2f}km/h".format(avg_speed)
+	print "AVG Speed:\t", "{:,.2f} km/h".format(avg_speed)
 	print "================================"
